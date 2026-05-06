@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Alexander Scottish</h1>
+    <p>Professional Developer | ICT Specialist</p>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div>
+        <h2>Hello, I'm a Developer</h2>
+        <p>I build modern and responsive websites.</p>
+        <button>Hire Me</button>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <h2>About Me</h2>
+    <img src="profile.jpg" alt="My Photo">
+    <p>
+        I am a passionate web developer with experience in HTML, CSS, and JavaScript.
+        I enjoy creating responsive and user-friendly websites.
+    </p>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Responsive Design</li>
+    </ul>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website using HTML & CSS.</p>
+        <img src="project1.jpg" alt="Project Image">
+    </div>
+
+    <div class="project">
+        <h3>Landing Page</h3>
+        <p>A responsive landing page design.</p>
+        <img src="project2.jpg" alt="Project Image">
+    </div>
+
+</section>
+
+<!-- Resume Section -->
+<section id="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" download>Download My Resume</a>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: example@email.com</p>
+    <p>Phone: +1234567890</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 My Portfolio | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navbar */
+nav {
+    background: #555;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+button {
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border: none;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* About Image */
+#about img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Skills */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Projects */
+.project {
+    margin: 20px 0;
+}
+
+.project img {
+    width: 200px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
